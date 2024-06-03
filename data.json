@@ -1,0 +1,18 @@
+[
+    {
+        "question":"What is the capital of India",
+        "option1":"mumbai",
+        "option2":"delhi",
+        "option3":"hydrabaad",
+        "option4":"kolkata",
+        "answer": "delhi"
+    },
+    {
+        "question":"Which city is the economic hub of India",
+        "option1":"mumbai",
+        "option2":"delhi",
+        "option3":"hydrabaad",
+        "option4":"kolkata",
+        "answer": "mumbai"
+    }
+]
