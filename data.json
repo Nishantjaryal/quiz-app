@@ -1,6 +1,7 @@
 [
     {
         "question":"What is the capital of India",
+        "imageLink":"https://lh5.googleusercontent.com/p/AF1QipNaQ1SZnIKTduoRA8gG4NgMV3wNmn36Xnji2Oro=w675-h390-n-k-no",
         "option1":"mumbai",
         "option2":"delhi",
         "option3":"hydrabaad",
@@ -9,10 +10,128 @@
     },
     {
         "question":"Which city is the economic hub of India",
+        "imageLink":"https://lh5.googleusercontent.com/p/AF1QipMyHvx8SO_K1vn5exHJ45hLRmusux72uRbwxKS3=w675-h390-n-k-no",
         "option1":"mumbai",
         "option2":"delhi",
         "option3":"hydrabaad",
         "option4":"kolkata",
         "answer": "mumbai"
+    },
+    {
+        "question":"Which is the cleanest city of india",
+        "imageLink":"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRh0vjN_wD-Fl0h2kUF0wFL013gvNoLMuRKL-AK9WEPqB6ECifUGCg3y-MHfiRzlVorqulCxg_nbSM6bsOCHtB1YAfJvWMhFY6DZg7kbQ",
+        "option1":"mumbai",
+        "option2":"delhi",
+        "option3":"indore",
+        "option4":"chandigarh",
+        "answer": "indore"
+    },
+    {
+        "question":"Which city is the technology hub of India",
+        "imageLink":"https://lh5.googleusercontent.com/p/AF1QipNHvBtoADn3vXrixppCjv6seso2g07iqNJ-sbWS=w675-h390-n-k-no",
+        "option1":"calicut",
+        "option2":"banglore",
+        "option3":"hydrabaad",
+        "option4":"gurugram",
+        "answer": "banglore"
+    },
+    {
+        "question":"which city is known as Pink city",
+        "imageLink":"https://lh5.googleusercontent.com/proxy/FUY5Md3jGK1-IILHAKueGekCfhk7HSvahVrlFzdqn8kvAL6ZTqVTg5sN5Rn4u6w-yyvtLRsASNJhghIdsG4bNRPFKPLOJHdyAXrd2YACYfw2CJ5g-Q45c2I4_A_ZBJHp9Gg5z4iGRtJ9CJjae1DqlfbLE2zUYKc=w675-h390-n-k-no",
+        "option1":"udaypur",
+        "option2":"jaipur",
+        "option3":"jodhpur",
+        "option4":"bhangarh",
+        "answer": "jaipur"
+    },
+    {
+        "question":"what is the Summer capital of Himachal pardesh",
+        "imageLink":"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSDX3fzT1y5tulyZyXe9jWWerOBCe2nsBQzFsjxNk2EmEubTEnspC-QKnxkMPdecFtV3nl3ODOEtKw6sySIC-F76axgudUbtOag5WQ5UA",
+        "option1":"shimla",
+        "option2":"dharamshala",
+        "option3":"kullu",
+        "option4":"hamirpur",
+        "answer": "shimla"
+    },
+    {
+        "question":"What is the Winter capital of Himachal pardesh",
+        "imageLink":"https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSoas-oCyugOI80lTCJ36gTBZJrsWs8WBey5ePMaUUIaJXR8-9_yne9T-sqd5Fos9O0IQWkeXxY_lzWsXcHLBSpPKqjmDndkI5Ond5rdw",
+        "option1":"shimla",
+        "option2":"dharamshala",
+        "option3":"kullu",
+        "option4":"hamirpur",
+        "answer": "dharamshala"
+    },
+    {
+        "question":"Which state of india is known for organic farming",
+        "imageLink":"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQy8pZOAr83Py-2TL0OUDGILKINNgs1rg4P2_0LaO-mrzvEooxgG5l5-ONKENCziTJoDxQrLcRM1gdsSit3ObrGNjmneDckWlmzLbwrdw",
+        "option1":"nagaland",
+        "option2":"mizoram",
+        "option3":"tripure",
+        "option4":"sikkim",
+        "answer": "sikkim"
+    },
+    {
+        "question":"In which state of india gambling is legal",
+        "imageLink":"https://lh5.googleusercontent.com/p/AF1QipPI-KJH8jWecrgce0ItKscubeoCH7Lghtl5yPLG=w675-h390-n-k-no",
+        "option1":"punjab",
+        "option2":"assam",
+        "option3":"goa",
+        "option4":"west Bengal",
+        "answer": "goa"
+    },
+    {
+        "question":"Which state of india has issue of illegal immigration",
+        "imageLink":"https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRdV_tLhzeqCcM2MGiowS8FnfIGwRlSDGe99qB2NhF4zFs1YmpCQewzPRHnKowwSbcklGMNSS9M5NpX4hjHwaz-gbwMBguuyA1Rr2Am9A",
+        "option1":"uttarpardesh",
+        "option2":"delhi",
+        "option3":"west bengal",
+        "option4":"bihar",
+        "answer": "west bengal"
+    },
+    {
+        "question":"which state of India has highest milk production",
+        "imageLink":"https://lh5.googleusercontent.com/p/AF1QipMgvEaA59uOASsReL-iSn2kbHBsALjgcEHotNyM=w675-h390-n-k-no",
+        "option1":"haryana",
+        "option2":"punjab",
+        "option3":"rajistahan",
+        "option4":"uttarpardesh",
+        "answer": "haryana"
+    },
+    {
+        "question":"Which state is the engineering hub of India",
+        "imageLink":"https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQImQf1omW6BWN6MOX2uqo-hZEOuPTj_owR4avg1KLrf8sepofZQnEqcewIM_61b9t_jkxZNN0s80_JBuq_jOpr37aeZ44f99DzBmzwOQ",
+        "option1":"tamilnadu",
+        "option2":"kerala",
+        "option3":"karnatka",
+        "option4":"maharashtra",
+        "answer": "tamilnadu"
+    },
+    {
+        "question":"Which state enjoys most rainfall in India",
+        "imageLink":"https://lh5.googleusercontent.com/p/AF1QipN1sTBR5wfoZUvhVPVIRt2U5YCBo5LEoumMuKyX=w675-h390-n-k-no",
+        "option1":"manipur",
+        "option2":"Himachal Pardesh",
+        "option3":"Meghalya",
+        "option4":"Mizoram",
+        "answer": "Meghalya"
+    },
+    {
+        "question":"Which state has most of drinking water resources of India",
+        "imageLink":"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTWNR93D2R5V3ksOgAaU1qdfSKB2W5ZnFGDuhtQqoT5JbMoAJIP55KiUPYCQccdRKGsPDwxccLgwDLCcFJc4ftRMycOZ9kCt2xVBwQ3RA",
+        "option1":"himachal Pardesh",
+        "option2":"uttrakhand",
+        "option3":"west bengal",
+        "option4":"meghalya",
+        "answer": "himachal Pardesh"
+    },
+    {
+        "question":"Which state of india is known as breadbasket of india",
+        "imageLink":"https://w0.peakpx.com/wallpaper/659/99/HD-wallpaper-sunrise-sun-bun-sunrise-in-punjab.jpg",
+        "option1":"uttarpardesh",
+        "option2":"madhyapardesh",
+        "option3":"punjab",
+        "option4":"maharashtra",
+        "answer": "punjab"
     }
 ]

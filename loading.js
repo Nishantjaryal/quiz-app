@@ -1,26 +1,11 @@
 let key_sets = [];
+const scorecard = document.getElementById("scorecard")
+const circleContainer = document.querySelector("#circleContainer")
 
-function check(options, picked, answer, id, length) {
-    picked = picked.toLowerCase();
-    answer = answer.toLowerCase();
-
-    options.forEach((option) => {
-        if (option.classList.contains(id)) {
-            if (option.innerText.toLowerCase() == answer) {
-                option.classList.add('true')
-            }
-            else {
-                option.classList.add('false')
-            }
-        }
-
-    })
-
-    if (picked == answer) {
-        return true
-    }
-    return false
-
+function setScoreCard(Score, Outof) {
+    scorecard.querySelector('h2').innerText = `${Score}/${Outof} are Correct`;
+    const percentage = Math.floor((Score / Outof) * 100)
+    scorecard.querySelector('h3').innerText = `Score: ${percentage}%`;
 }
 
 const parent = document.getElementById('load')
@@ -31,11 +16,19 @@ export function loadData(data) {
 
         const selector = `data-cell${index}`;
         const ans = chunk.answer;
+        let image = "<div></div>";
+        if (chunk.imageLink !== "") {
+            image = `<img src="${chunk.imageLink}" alt="  Please Provide Valid URL">`
+        }
 
-        parent.innerHTML += `<div class="covers">
-        <h3 class="question" id="question">
-        Que:${index + 1} ➔ ${chunk.question}?            
+
+
+        circleContainer.innerHTML += `<a href="#circ${index}"><div class="circles">U</div></a>`
+        parent.innerHTML += `<div class="covers" id="circ${index}">
+        <h3 class="question_no">Que: ${index + 1} </h3>
+        <h3 class="question">${chunk.question}?            
         </h3>
+        ${image}
         <div>
             <button  class="options ${index}" ${selector}>
             ${chunk.option1} 
@@ -69,8 +62,41 @@ export function loadData(data) {
     const options = document.querySelectorAll(".options");
     const Card_list = document.querySelectorAll('.covers')
     const cards = Card_list.length
+    const question_no = document.querySelectorAll(".question_no");
+    const Circles = document.querySelectorAll(".circles")
+    function check(options, picked, answer, id, length) {
+        picked = picked.toLowerCase();
+        answer = answer.toLowerCase();
+
+        options.forEach((option) => {
+            if (option.classList.contains(id)) {
+                if (option.innerText.toLowerCase() == answer) {
+                    option.classList.add('true')
+                }
+                else {
+                    option.classList.add('false')
+
+                }
+            }
+        })
+
+        if (picked == answer) {
+            question_no[id].classList.add("true")
+            Circles[id].classList.add("true")
+            Circles[id].innerText = "C"
+            return true
+        }
+        question_no[id].classList.add("falsacy")
+        Circles[id].classList.add("falsacy")
+        Circles[id].innerText = "W"
 
 
+        return false
+
+    }
+
+    // to initialise scoreboard 
+    setScoreCard(0, cards)
 
     function len(id) {
         let Option_length = 0;
@@ -84,7 +110,7 @@ export function loadData(data) {
 
 
 
-    options.forEach((option) => {
+    options.forEach((option, index) => {
 
         option.addEventListener("click", () => {
 
@@ -96,11 +122,10 @@ export function loadData(data) {
                         if (check(options, option.innerText, key.answer, key.id, len(key.id))) {
                             score++
                             console.log(`${score} out of ${cards}`)
-
-                        } else {
-                            console.log(`${score} out of ${cards}`)
                         }
+                        option.style.border = "4px solid #44cd44"
 
+                        setScoreCard(score, cards)
                         key.locked = true;
                     }
 

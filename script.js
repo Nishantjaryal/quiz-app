@@ -1,5 +1,6 @@
 import { loadData } from "./loading.js"
 
+
 function fetch_data(link) {
     fetch(link)
     .then((response) => response.json())
