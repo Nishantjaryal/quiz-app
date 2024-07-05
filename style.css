@@ -59,8 +59,7 @@ body{
     color: #ffffff;
     padding: 20px;
     width: fit-content;
-    border-top-right-radius:5px;
-    border-bottom-right-radius:5px;
+    border-bottom-right-radius:40px;
 }
 #circleContainer{
     max-width: 100%;
